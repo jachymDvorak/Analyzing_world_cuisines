@@ -3,7 +3,13 @@ In this repository I share my end-to-end project. Scraping data, analyzing data,
 
 ## Scraping data
 
-I built a web-scraper using the Scrapy library (more robust solutions than BeautifulSoup) to get recipes from each cuisine listed on [https://www.bbc.co.uk/food/cuisines](BBC Food). I chose BBC due to the perceived quality and availability. Other webpages like Allrecipes are quite chaotic, allow user-entered recipes which in turn may influence data quality (e.g. poorly labeled cuisines, inconsistency). 
+I built a web-scraper using the Scrapy library (more robust solutions than BeautifulSoup) to get recipes from each cuisine listed on [BBC Food](https://www.bbc.co.uk/food/cuisines). I chose BBC due to the perceived quality and availability. Other webpages like Allrecipes are quite chaotic, allow user-entered recipes which in turn may influence data quality (e.g. poorly labeled cuisines, inconsistency). 
+
+Note the scraper has to be run with a command in cmd from the project folder (obviously output can be JSON etc.)
+
+```
+scrapy crawl recipe_spider -o BBC_recipe_data.csv
+```
 
 With my scraper, I collected:
 
