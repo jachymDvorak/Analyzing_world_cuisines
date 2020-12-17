@@ -26,7 +26,7 @@ I scraped over 2k recipes and will further do an EDA & ML.
 
 ## EDA
 
--tbd
+- Most used ingredients in each cuisine.
 
 ## Machine Learning and Predictive Modelling
 
