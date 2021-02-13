@@ -28,6 +28,8 @@ I scraped over 2k recipes and will further do an EDA & ML.
 
 - Most used ingredients in each cuisine.
 
+![10 world cuisines](https://github.com/jachymDvorak/Analyzing_world_cuisines/blob/main/cuisine_plots.jpg)
+
 ## Machine Learning and Predictive Modelling
 
 -tbd
